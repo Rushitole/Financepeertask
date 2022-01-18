@@ -1,0 +1,22 @@
+#app{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1px;
+}
+.product{
+    background-color: #f15f0a;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.round{
+    border: 5px solid rgb(32, 29, 29);
+    /* border-radius: 200px; */
+    height: 200px;
+    width: 200px;
+    /* margin-left:100px; */
+}
+.bg{
+    background-color: #e0b59c;
+}
